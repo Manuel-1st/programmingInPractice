@@ -15,5 +15,6 @@ printf("\n---------------------------------\n");
 printf("Municipality : %s\n", municipality); 
 printf("Mayor: %s\n", mayor); 
 printf("Population   : %d\n", population); 
+printf("Test to confirm my upload"); 
 return 0; 
 }
