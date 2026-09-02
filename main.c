@@ -1,5 +1,4 @@
 #include <stdio.h> 
-<<<<<<< HEAD
 int budget() {
     double revenue;
     double expenses;
@@ -59,24 +58,5 @@ if (calBudget == 1) {
     budget();
 }
 
-=======
-int main() 
-{ 
-char municipality[50]; 
-char mayor[50]; 
-int population; 
-printf("Municipal Financial Management System\n\n"); 
-printf("Enter Municipality Name: "); 
-scanf("%49s", municipality); 
-printf("Enter Mayor: "); 
-scanf("%49s", mayor); 
-printf("Enter Population: "); 
-scanf("%d", &population); 
-printf("\n---------------------------------\n"); 
-printf("Municipality : %s\n", municipality); 
-printf("Mayor: %s\n", mayor); 
-printf("Population   : %d\n", population); 
-printf("Test to confirm my upload"); 
->>>>>>> 776fd1c3dead0fd330de1e62582e7fe7f28d78f9
 return 0; 
-}
+} 
